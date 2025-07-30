@@ -280,7 +280,7 @@ export default function HomePage() {
                   <div className="space-y-3">
                     <div className="text-gray-300 font-semibold text-lg">México</div>
                     <div className="text-gray-500 text-lg">Europa</div>
-                    <div className="text-gray-500 text-lg">Jero</div>
+                    <div className="text-gray-500 text-lg">Asia</div>
                     <div className="text-gray-500 text-lg">América</div>
                   </div>
                 </div>
