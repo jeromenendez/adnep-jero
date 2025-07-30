@@ -1,0 +1,15 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches:
+      - main      # cambialo si tu rama es otra
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Deploy Hook
+        run: curl -fsSL -X POST "$VERCEL_WEBHOOK_URL"
+        env:
+          VERCEL_WEBHOOK_URL: ${{ secrets.VERCEL_WEBHOOK_URL }}
