@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ADNEP - Soluciones Creativas de Video Digital",
+  title: "ADNEP",
   description:
     "Agencia Digital de Nuevas Experiencias Publicitarias. Transformamos ideas en experiencias audiovisuales que conectan marcas con audiencias.",
   keywords: "video digital, publicidad, marketing, creatividad, producción audiovisual, Argentina",
