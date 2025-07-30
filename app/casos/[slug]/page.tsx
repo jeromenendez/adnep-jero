@@ -14,7 +14,7 @@ const casosData = {
     client: "Ministerio de Turismo de Argentina",
     category: "Turismo",
     duration: "3 meses",
-    team: "15 profesionales",
+    team: "14 profesionales",
     gradient: "from-adnep-blue to-blue-600",
     stats: {
       views: "2.5M",
